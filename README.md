@@ -97,7 +97,7 @@ $$\mathcal{F}_n = \bigoplus_{i=0}^{7} \lfloor \mathcal{D}_n(i) \rfloor \pmod{2^{
 
 The Chaos Anchor ($A_n$) absorbs this feedback step via an asynchronous non-linear rotation:
 
-$$A_n = \text{Rotate\_Right}(A_{n-1}, 1) \oplus \mathcal{F}_n$$
+$$A_n = \text{RotateRight}(A_{n-1}, 1) \oplus \mathcal{F}_n$$
 
 This mechanism ensures that if an incoming data stream exhibits structural bias, the Chaos Anchor instantly shifts the phase-space coordinates of the next generation. The simulation layer dynamically re-calibrates its own rules of interference, guaranteeing that information density continues to accumulate linearly across CPU cycles without hitaita muistipinnat (RAM) stalls.
 
