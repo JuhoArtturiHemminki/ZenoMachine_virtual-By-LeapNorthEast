@@ -42,7 +42,7 @@ In a physical kiihtyvä järjestelmä (an accelerating reference frame), Einstei
 
 The **ZenoMachine_virtual** embeds this exact relativistic time dilation directly into the internal numerical values of the data variables. While the physical transistors of the Intel Core i7 processor cycle at a completely linear, safe, and macroscopically uniform pace (3 GHz+ per loop step), the internal `temporal_denominator` scales exponentially:
 
-$$\text{zeno\_factor} = 2^n$$
+$$\text{ZenoFactor} = 2^n$$
 
 As $n \rightarrow 60$, the virtual step size approaches a mathematical infinity, effectively meaning that inside the simulation layer, **the 2-minute horizon is never reached as long as the dynamic bitwise toggling (the rämpytys) is maintained.**
 
