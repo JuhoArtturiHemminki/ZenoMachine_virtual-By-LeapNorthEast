@@ -47,9 +47,12 @@ creating a perfect mathematical mirror image (matemaattinen peilikuva) allowing 
 
 #### Claim 3.1: Autonomic Chaos Anchor ($A_n$)
 The framework claims an integrated feedback factor ($\mathcal{F}_n$) derived from the collective parity reduction of the integrated density matrix:
-$$\mathcal{F}_n = \bigoplus_{i=0}^{7} \lfloor \mathcal{D}_n(i) \rfloor \pmod{2^{64}}$$
+
+$$\mathcal{F}_n=\bigoplus_{i=0}^{7}\lfloor\mathcal{D}_n(i)\rfloor\pmod{2^{64}}$$
+
 which is absorbed via an asynchronous non-linear rotation to generate the Autonomic Chaos Anchor ($A_n$):
-$$A_n = \text{RotateRight}(A_{n-1}, 1) \oplus \mathcal{F}_n$$
+
+$$A_n=\text{RotateRight}(A_{n-1},1)\oplus\mathcal{F}_n$$
 
 #### Claim 3.2: Dynamic Coordinate Phase-Shifting
 The framework claims the structural injection of the Chaos Anchor ($A_n$) to instantly shift the phase-space coordinates of the next generation. This dynamically re-calibrates the system's own rules of interference, preventing systemic saturation, data locking, or KERN_ZENO_SATURATION deadlock conditions when processing highly repetitive or data-biased raw hardware inputs.
